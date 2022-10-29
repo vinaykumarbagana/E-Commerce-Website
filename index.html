@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce-ShoppingCart</title>
+    <script src="https://kit.fontawesome.com/3fdeb7d4cc.js" crossorigin="anonymous"></script>
+
+    <!-- box icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- styles  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER  -->
+    <header>
+        <!-- NAV  -->
+        <div class="nav container">
+           
+            <a href="#" class="logo"><span>E</span>Commerce</a>
+
+            <!-- CART ICON  -->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+
+            <!-- CART  -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+
+                <!-- CONTENT  -->
+                <div class="cart-content">
+
+
+                </div>
+
+                <!-- TOTAL   -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- BUY BUTTON  -->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!-- CART CLOSE  -->
+                <i class='bx bx-x' id="cart-close"></i>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- SHOP SECTION  -->
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+
+        <!-- CONTENT  -->
+        <div class="shop-content">
+            <!-- BOX 1 -->
+            <div class="product-box">
+                <img src="img/watches/diesel_black_dz4519_water-resistant_analogue_watch.webp" alt="" class="product-img">
+                <h2 class="product-title">Diesel Watch</h2>
+                <span class="product-price">14000/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <!-- BOX 2 -->
+            <div class="product-box">
+                <img src="img/watches/diesel_brown_dz4290_mega_chief_analogue_watch.webp"  alt="" class="product-img">
+                <h2 class="product-title">DIESEL BLACK WATCH</h2>
+                <span class="product-price">10000/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+
+            </div>
+            <!-- BOX 3 -->
+            <div class="product-box">
+                <img src="img/watches/diesel_multicoloured_dz4529_water-resistant_chronograph_watch.webp"  alt="" class="product-img">
+                <h2 class="product-title">TIMEX WATCH</h2>
+                <span class="product-price">5085/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <!-- BOX 4 -->
+            <div class="product-box">
+                <img src="img/watches/diesel_silver-toned_&_black_dz4577_water-resistance_chronograph_watch.webp"  alt="" class="product-img">
+                <h2 class="product-title">Fossil</h2>
+                <span class="product-price">10522/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <!-- BOX 5 -->
+            <div class="product-box">
+                <img src="img/watches/guess_black_w1132g1_embellished_analogue_watch_with_silicone_strap.webp" alt="" class="product-img">
+                <h2 class="product-title">Ferrari</h2>
+                <span class="product-price">9585/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <!-- BOX 6 -->
+            <div class="product-box">
+                <img src="img/watches/emporio_armani_black_ar11431_chronograph_watch_with_leather_strap.webp"  alt="" class="product-img">
+                <h2 class="product-title">Galaxy watch</h2>
+                <span class="product-price">14008/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <!-- BOX 7 -->
+            <div class="product-box">
+                <img src="img/adidas/adidas_blue_logo_print_crew-neck_t-shirt.webp"  alt="" class="product-img">
+                <h2 class="product-title">Adidas men T-shirt</h2>
+                <span class="product-price">1700/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <!-- BOX 8 -->
+            <div class="product-box">
+                <img src="img/adidas/diesel_blue_&_black_umtee-michael-tube-two_pack_d_patch_t-shirts.webp"  alt="" class="product-img">
+                <h2 class="product-title">Nike men T-shirt</h2>
+                <span class="product-price">1800/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/adidas/emporio_armani_black_pack_of_2_classic_round-neck_t-shirts.webp"  alt="" class="product-img">
+                <h2 class="product-title">Armani men combo t-shirt</h2>
+                <span class="product-price">5846/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/adidas/emporio_armani_white_travel_essentials_supima_v-neck_t-shirt.webp"  alt="" class="product-img">
+                <h2 class="product-title">Fila T-shirt</h2>
+                <span class="product-price">585/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/adidas/hugo_boss_black_solid_crew-neck_t-shirt.webp"  alt="" class="product-img">
+                <h2 class="product-title">Performax T-shirt</h2>
+                <span class="product-price">777/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/adidas/hugo_boss_pink_polo_t-shirt_with_contrast_tipping.webp"  alt="" class="product-img">
+                <h2 class="product-title">Hugo_Boss T-shirt</h2>
+                <span class="product-price">4528/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy Deals</h4>
+            <h2>Buy 1 Get 1 Free</h2>
+            <span>The best classic dress is on sale at Cara</span>
+            <button class="white">Learn More</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>Summer Deals</h4>
+            <h2>Upcoming Season</h2>
+            <span>The best classic dress is on sale at Cara</span>
+            <button class="white">Collections</button>
+        </div>
+    
+     </section>
+    
+     <section id="banner3">
+        <div class="banner-box ">
+           
+            <h2> Season Sale</h2>
+            <h3>Winter Collections-50% off</h3>
+           
+        </div>
+        <div class="banner-box banner-box2">
+           
+            <h2> It's Time for Rain</h2>
+            <h3>Rainy season Sale</h3>
+           
+        </div>
+        <div class="banner-box banner-box3">
+           
+            <h2> T-Shirts</h2>
+            <h3>New Trendy Prints</h3>
+           
+        </div>
+        
+    
+     </section>
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+
+        <!-- CONTENT  -->
+        <div class="shop-content">
+            <!-- BOX 1 -->
+            <div class="product-box">
+                <img src="img/mensneakers/michael_kors_black_keating_embossed_leather_lace-up_sneakers.webp" alt="" class="product-img">
+                <h2 class="product-title">Nike Men Shoes</h2>
+                <span class="product-price">2525/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/mensneakers/emporio_armani_navy_blue_logo_print_lace-up_plimsolls.webp" alt="" class="product-img">
+                <h2 class="product-title">Emporio Men Sneakers</h2>
+                <span class="product-price">5847/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/mensneakers/emporio_armani_black_lace-up_leather_sneakers_with_brand_icon.webp" alt="" class="product-img">
+                <h2 class="product-title">Adidas Men Sneakers</h2>
+                <span class="product-price">2589/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/mensneakers/emporio_armani_black_lace-up_leather_sneakers_with_brand_icon.webp" alt="" class="product-img">
+                <h2 class="product-title">Fila Men Sneakers</h2>
+                <span class="product-price">5687/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/mensneakers/emporio_armani_black_&_white_lace-up_sneakers_with_side_lettering_logo.webp" alt="" class="product-img">
+                <h2 class="product-title">Armani Men Sneakers</h2>
+                <span class="product-price">5474/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/mensneakers/diesel_white_s-racer_low-top_lace-up_sneakers.webp" alt="" class="product-img">
+                <h2 class="product-title">Adidas Yazi Men Sneakers</h2>
+                <span class="product-price">25000/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            </div>
+    </section>
+
+
+
+    <section class="shop container">
+        <h2 class="section-title">Feature Products</h2>
+
+        <!-- CONTENT  -->
+        <div class="shop-content">
+            <!-- BOX 1 -->
+            <div class="product-box">
+                <img src="img/caps/hugo_boss_black_brand_print_cotton_baseball_cap.webp" alt="" class="product-img">
+                <h2 class="product-title">Hugo_boss Men Cap</h2>
+                <span class="product-price">2525/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/caps/emporio_armani_red_brand-embroidered_baseball_cap.webp" alt="" class="product-img">
+                <h2 class="product-title">Emporio_Armani men Cap</h2>
+                <span class="product-price">4589/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/caps/emporio_armani_navy_blue_baseball_cap_with_eagle_logo.webp" alt="" class="product-img">
+                <h2 class="product-title">Dnmx Men Cap</h2>
+                <span class="product-price">525/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/caps/emporio_armani_black_logo_embroidered_baseball_cap.webp" alt="" class="product-img">
+                <h2 class="product-title">Teamspirit Men Cap</h2>
+                <span class="product-price">855/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/caps/dsquared2_maroon_be_icon_baseball_cap.webp" alt="" class="product-img">
+                <h2 class="product-title">Maron Men Cap</h2>
+                <span class="product-price">5685/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/caps/dsquared2_beige_gabardine_baseball_cap_with_applique.webp" alt="" class="product-img">
+                <h2 class="product-title">Beige Men Cap</h2>
+                <span class="product-price">457/-</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+
+            </div>
+    </section>
+    
+ <footer class="section-p1">
+    <div class="col">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> 3932 Caeson street Danvi Kentucky  U.S.A</p>
+        <P><strong>Phone Number:</strong>+859-265-8387/8474-923-473</P>
+        <p><strong>Zipcode:</strong>40422</p>
+        <p><strong>Customer Care:</strong>24/7</p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-snapchat"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact US</a>
+
+    </div>
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My WishList</a>
+        <a href="#">Track My Orders</a>
+        <a href="#">Help</a>
+
+    </div>
+    <div class="col install">
+        <h4>Install App</h4>
+        <p> From App store or Google Play</p>
+        <div class="row">
+            <img src="img/pay/app.jpg" alt="">
+           <img src="img/pay/play.jpg" alt="">
+        </div>
+        <p>Secure payment gateway </p>
+        <img src="img/pay/pay.png" alt="">
+    </div>
+<div class="copyright">
+    
+
+    <p>2022 Vinay Html-CSS & JavaScript Project</p>
+
+
+</div>
+ </footer>
+
+    <!-- link js  -->
+    <script src="main.js"></script>
+</body>
+
+</html>
+
