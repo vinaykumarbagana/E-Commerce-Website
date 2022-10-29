@@ -13,7 +13,7 @@ My website that allows people to buy  physical goods, services, and digital prod
 
 ### Links
 
-- Live Site URL: [Live Demo]
+- Live Site URL: [Live Demo](https://dulcet-syrniki-69538e.netlify.app/)
 
 
 ### Built with
