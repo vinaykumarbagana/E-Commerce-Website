@@ -13,7 +13,7 @@ My website that allows people to buy  physical goods, services, and digital prod
 
 ### Links
 
-- Live Site URL: [Live Demo](https://vinaykumar-ecommerce.netlify.app/)
+- Live Site URL: [Live Demo]
 
 
 ### Built with
